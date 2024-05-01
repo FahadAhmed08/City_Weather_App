@@ -181,8 +181,9 @@ class _SearchCityState extends State<SearchCity> {
         child: Center(
             child: Container(
           child: Text(
-            "☝️☝️☝️ Inter the City Name ☝️☝️☝️\n To Show About Weather Information ",
+            "☝️☝️☝️ Inter the City Name ☝️☝️☝️\n To Know More About Weather's Information ",
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            textAlign: TextAlign.center,
           ),
         )),
       );
